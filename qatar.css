@@ -1,0 +1,127 @@
+
+.soumya{
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: space-evenly;
+width:1110px;
+height: 700px;
+margin-left: auto;
+margin-right: auto;
+
+}
+img{
+    height: 230px;
+    width: 230px;
+ 
+}
+div{
+text-align: center;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+font-family: 'Besley', serif;
+font-weight: 700;
+
+}
+.shree{
+    display: flex;
+    width:500px;
+    justify-content: space-between;
+    font-weight: 700;
+    
+}
+.heading{
+    background-image: url(https://images.unsplash.com/photo-1573912523985-28eb7440fc09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1290&q=80);
+    height: 70vh;
+    background-size: cover;
+}
+h1,h2{
+    text-align: center;
+    color:#012443;
+}
+.signup{
+  text-align: center;
+  border-bottom: 1px solid wheat;
+}
+p,a{
+    text-align: center;
+    font-size: 1.2em;
+    color: #5089C6;
+}
+#Fname{
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+#Sname{
+    margin-bottom: 40px;
+}
+#email{
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#BD4B4B;
+    color: whitesmoke;
+    border:none;
+   
+}
+ p :hover{
+color: teal;
+}
+section{
+    border-bottom: 1px solid wheat;
+}
+a:hover{
+    color: teal;
+}
+body button:hover{
+    box-shadow: 0px 5px 11px tomato;
+    transform: translateX(3px);
+    transform: translateY(-3px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer{
+   display: flex;
+   justify-content: space-between;
+
+}
+.mathur{
+    display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: space-evenly;
+width:1110px;
+height:300px;
+margin-left: auto;
+margin-right: auto;
+}
+footer img{
+    height: 50px;
+    width: 50px;;
+}
+.foot{
+    display: flex;
+}
+.search
+{
+    margin-right: 15px;;
+}
+body img:hover{
+    transition: 0.5s;
+    transform: translateX(10px);
+}
+nav{
+    margin-top: 1em;
+}
+nav :hover{
+    height: 1.6em;
+    background-color: rgb(52, 231, 52);
+    color: white;
+    transform: translateX(10px);
+    transition: 0.5s;
+}
